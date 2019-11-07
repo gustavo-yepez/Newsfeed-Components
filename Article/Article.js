@@ -159,7 +159,6 @@ function newsfeedCreator(articleTitle, articleDate, paragraphOne, paragraphTwo, 
 }
 
 
-
 data.forEach((data) => {
   articleHolder.appendChild(newsfeedCreator(data.title, data.date, data.firstParagraph, data.secondParagraph, data.thirdParagraph));
 })
